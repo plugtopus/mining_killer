@@ -1,0 +1,67 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="utf-8">
+	<link rel="stylesheet" href="../css/font-awesome.min.css">
+	<link type="text/css" href="../css/settings.css" rel="stylesheet">
+	<title>Майнинг киллер - Настройки</title>
+</head>
+
+<body id="body">
+
+	<div class="header">
+      <div class="logo"><img src="../img/128.png" width="48"></div>
+      <div class="content"><span id="title">Майнинг киллер </span></div>
+	</div>
+
+	<div class="tabcontainer">
+
+		  <a class="tablinks setting-btn">Счетчик майнеров на иконке</a>
+		  <a class="tablinks filters-btn">Черный список</a>
+		  <a class="tablinks Whitelist-btn">Исключения</a>
+
+	</div>
+
+	<div class="optcontainer">
+
+		<div class="tab-cnt">
+			<input type="checkbox" id="mkShowCount" class="opt" value="1">
+			<label for="mkShowCount">Показывать на иконке количество прибитых майнеров</label><br>
+		</div>
+
+		<div class="tab-cnt">
+			<input type="checkbox" id="mkFilters" class="opt" value="1" disabled>
+			<label for="mkFilters"><b><a href="../assets/blacklist.txt" target="_blank">Майнинг киллер - черный список</a></b></label><br>
+
+			<p>Один домен - одна строка. Пожалуйста, убедитесь, что ссылка имеет следующий вид : <code>*://*.domain.com/*</code> или <code>*://*.domain.com/path*</code></p>
+			<textarea rows="10" id="mkUserFilters" class="opt"></textarea>
+
+			<button class="btn" id="mkUserFiltersSave" aria-hidden="true"> Сохранить</button>
+
+		</div>
+
+		<div class="tab-cnt">
+
+			Майнинг киллер будет игнорировать домены из этого списка.
+			<br>
+			<br>
+			<input type="text" id="mkWhiteListDomain" placeholder="e.g. www.domain.com, domain.com">
+			<button class="btn" id="mkWhiteListAdd" ><i class="fa fa-heart" ></i>&nbsp Добавить домен в исключения</button>
+			
+			<br><br>
+
+			<div class="cnt">
+				<select size="15" id="mkWhiteList" class="opt">
+				</select>
+				<button class="btn" id="mkWhiteListRemove"><i class="fa fa-minus" aria-hidden="true"></i>&nbsp Убрать домен</button>
+			</div>
+
+		</div>
+
+
+	</div>
+
+	<script type="text/javascript" src="../core/settings.js"></script>
+
+</body>
+</html>
