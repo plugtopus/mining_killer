@@ -9,6 +9,7 @@
    },
    "default_locale": "ru",
    "name": "__MSG_name__",
+   "short_name": "__MSG_shortname__",
    "description": "__MSG_desc__",
    "content_scripts": [ {
       "js": [ "core/cs.js" ],
@@ -24,8 +25,6 @@
    "options_page": "html/settings.html",
    "permissions": [ "activeTab", "storage", "unlimitedStorage", "tabs", "webRequest", "webRequestBlocking", "\u003Call_urls>" ],
    "update_url": "https://clients2.google.com/service/update2/crx",
-   "version": "2018.3.30.1",
-   "web_accessible_resources": [ "core/minerkiller.js" ],
-   "author": "Plugtopus Agency",
-   "homepage_url": "https://plugtopus.agency"
+   "version": "2018.07.03.2",
+   "web_accessible_resources": [ "core/minerkiller.js" ]
 }

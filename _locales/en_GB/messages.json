@@ -1,0 +1,14 @@
+﻿{
+   "desc": {
+      "message": "This extension stops any mining scripts execution in your browser"
+   },
+   "name": {
+      "message": "Mining Killer"
+   },
+   "shortname": {
+      "message": "Mining Killer"
+   },
+   "title": {
+      "message": "Mining Killer"
+   }
+}
