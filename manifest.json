@@ -7,7 +7,7 @@
       "default_icon": "img/128.png",
       "default_popup": "html/popup.html"
    },
-   "default_locale": "ru",
+   "default_locale": "en_US",
    "name": "__MSG_name__",
    "short_name": "__MSG_shortname__",
    "description": "__MSG_desc__",
